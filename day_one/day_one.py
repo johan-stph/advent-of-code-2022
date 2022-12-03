@@ -1,9 +1,6 @@
-
 def read_file(filepath: str) -> list[str]:
     with open(filepath, "r") as f:
         return f.readlines()
-
-
 
 
 def assignment():
@@ -20,19 +17,15 @@ def assignment():
     return output
 
 
-
 def assignment_one():
     output = assignment()
     print(max(output))
+
 
 def assignment_two():
     output = assignment()
     output.sort()
     print(output[-1] + output[-2] + output[-3])
-
-
-
-
 
 
 def main():
